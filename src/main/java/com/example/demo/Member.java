@@ -1,10 +1,14 @@
 package com.example.demo;
 
+import java.util.List;
+
 public class Member {
     private int id;
     private String name;
     private String klass;
     private String pochta;
+    public List<Integer> membersPriglashenie;
+    public List<Integer> poseschennyeEvents;
 
     public Member(int id, String name, String klass, String pochta) {
         this.id = id;
